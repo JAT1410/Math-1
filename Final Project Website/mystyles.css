@@ -1,0 +1,139 @@
+
+/*These are tag selectors*/
+
+ 
+           hr{
+           		font-family:Arial; 
+           	   background-color:DarkGrey;
+           	   border-style: dotted;
+           	   border-color:#3D56B2;
+           	   border-width: 2px;
+           	   height: 1px
+           	   width: 1px;
+               text-align:center;
+           	}  
+             
+           h1 { font-variant:small-caps;
+                 color:#2C2891;
+                 font-size: 40px;
+                  }  
+
+        img{width:126px;
+        	height:126px;
+        	background-position: center: 
+        } 
+
+
+
+h2 {color:#0000CD; 
+	font-family:arial
+  text-align: center }
+  }
+
+
+
+p {
+	font-family:Verdana;
+	font-size: 15px;
+  text-align:center;
+}
+
+table {
+        border: 2px solid black;
+        padding: 0.5rem;
+            }
+
+tr {
+    border: 2px solid black;
+    padding: 0.5rem;
+}
+
+   
+
+
+
+/* these are class selectors */
+
+.first {color:#082032}  /* green text */
+.second {color:#212121} /* black text */
+.third {color:#FF69B4}  /* hot pink */
+
+/*These are ID selectors*/
+
+#heading {
+	color:blue;
+}
+
+
+a {
+
+      text-decoration:none;  /* removes underlines for all link states */
+
+}
+
+a:link {
+
+      color:#191970;
+
+}
+
+a:visited {
+
+      color:#48D1cc;
+
+}
+
+a:hover, a:focus {
+
+      color:#FFDEAD;
+
+      background-color:#fAFo6;
+
+}
+
+a:active {
+
+      color:#FFFE0;
+
+      background-color:#FFe4B5;
+
+}
+
+footer a {
+
+      text-decoration:none;
+
+      font-size:.75em;
+
+} 
+
+nav{
+  width:20px;
+  font:1.2em/2.1em verdana, Tahoma, sans-serif;
+  border:2px double #999;
+}
+
+
+#navlist {
+  margin:2px;
+  padding:5px 5px 5px 5px;
+  list-style: none;
+}
+
+#navlist li {
+  padding-left:20px;
+  background-image:url("waterfall.jpg") no-repeat 0.615em;
+  border-bottom:1px solid #ccc;
+}
+
+#navlist li a{ 
+  display:block;
+
+}
+
+#navlist li:hover
+ {
+  background-color:#ffffe0;
+}
+
+
